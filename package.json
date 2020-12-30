@@ -1,0 +1,28 @@
+{
+    "name": "kafka-js-try",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Edouard Penin",
+    "license": "MIT",
+    "dependencies": {},
+    "scripts": {
+        "start": "nodemon --config nodemon.json src/index.ts",
+        "start:debug": "yarn start --inspect-brk src/index.ts"
+    },
+    "devDependencies": {
+        "@isthatcentered/log": "^1.0.4-alpha.0",
+        "@types/blessed": "^0.1.17",
+        "@types/node": "^14.14.16",
+        "@types/terminal-kit": "^1.28.2",
+        "blessed": "^0.1.81",
+        "casual": "^1.6.2",
+        "kafka-streams": "^5.0.0",
+        "kafkajs": "^1.15.0",
+        "nodemon": "^2.0.6",
+        "prettier": "^2.2.1",
+        "rxjs": "^6.6.3",
+        "terminal-kit": "^1.44.3",
+        "ts-node": "^9.1.1",
+        "typescript": "^4.1.3"
+    }
+}
